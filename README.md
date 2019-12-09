@@ -12,7 +12,7 @@ The different stages of analysis are listed below. These include a reference to 
 
 1. Download data
     * **Master Notebook**: [1-download-data.ipynb](1-download-data.ipynb)
-    * **Results Notebook**: [2-download-data.ipynb](2-download-data.ipynb)
+    * **Results Notebook**: [2-download-data.nbconvert.ipynb](2-download-data.nbconvert.ipynb)
 2. Count unique kmers
-    * **Master Notebook**: [2-count-kmers.ipynb](2-count-kmers.ipynb
+    * **Master Notebook**: [2-count-kmers.ipynb](2-count-kmers.ipynb)
     * **Results Notebook**: [2-count-kmers.nbconvert.ipynb](2-count-kmers.nbconvert.ipynb)
