@@ -1,0 +1,58 @@
+[11 Dec 2019 21:12:57-rUV][cmd] /home/CSCScience.ca/apetkau/miniconda3/envs/bigsi_mccortex/bin/mccortex31 build --nkmers 61000000 --threads 1 --kmer 15 --mem 3G --sample SRR8088185 --seq microbial/kmer-counts-jellyfish/15/SRR8088185.kmer.gz microbial/bigsi/15/mccortex.SRR8088185.ctx
+[11 Dec 2019 21:12:57-rUV][cwd] /home/CSCScience.ca/apetkau/workspace/comp7934-project
+[11 Dec 2019 21:12:57-rUV][version] mccortex=v0.0.3-610-g400c0e3 zlib=1.2.11 htslib=1.8-17-g699ed53 ASSERTS=ON hash=Lookup3 CHECKS=ON k=3..31
+[11 Dec 2019 21:12:57-rUV] Saving graph to: microbial/bigsi/15/mccortex.SRR8088185.ctx
+[11 Dec 2019 21:12:57-rUV][sample] 0: SRR8088185
+[11 Dec 2019 21:12:57-rUV][task] microbial/kmer-counts-jellyfish/15/SRR8088185.kmer.gz; FASTQ offset: auto-detect, threshold: off; cut homopolymers: off; remove PCR duplicates: no; colour: 0
+[11 Dec 2019 21:12:57-rUV][memory] 104 bits per kmer
+[11 Dec 2019 21:12:57-rUV] Note: Using less memory than requested (784MB < 3GB); allows for 62,914,560 kmers
+[11 Dec 2019 21:12:57-rUV][memory] graph: 784MB
+[11 Dec 2019 21:12:57-rUV][memory] total: 784MB of 62.6GB RAM
+[11 Dec 2019 21:12:57-rUV] Writing 1 colour graph to microbial/bigsi/15/mccortex.SRR8088185.ctx
+[11 Dec 2019 21:12:57-rUV][hasht] Allocating table with 62,914,560 entries, using 484MB
+[11 Dec 2019 21:12:57-rUV][hasht]  number of buckets: 2,097,152, bucket size: 30
+[11 Dec 2019 21:12:57-rUV][graph] kmer-size: 15; colours: 1; capacity: 62,914,560
+[11 Dec 2019 21:12:57-rUV][hasht] buckets: 2,097,152 [2^21]; bucket size: 30; 
+[11 Dec 2019 21:12:57-rUV][hasht] memory: 484MB; filled: 0 / 62,914,560 (0.00%)
+[11 Dec 2019 21:12:57-rUV][asyncio] Inputs: 1; Threads: 1
+[11 Dec 2019 21:12:57-rUV][seq] Parsing sequence file microbial/kmer-counts-jellyfish/15/SRR8088185.kmer.gz
+[11 Dec 2019 21:13:01-rUV][seq] Loaded 2,421,675 reads and 0 reads pairs (file: microbial/kmer-counts-jellyfish/15/SRR8088185.kmer.gz)
+[11 Dec 2019 21:13:01-rUV][hasht] buckets: 2,097,152 [2^21]; bucket size: 30; 
+[11 Dec 2019 21:13:01-rUV][hasht] memory: 484MB; filled: 2,421,675 / 62,914,560 (3.85%)
+[11 Dec 2019 21:13:01-rUV][hasht]  collisions  0: 2421675
+[11 Dec 2019 21:13:01-rUV][task] input: microbial/kmer-counts-jellyfish/15/SRR8088185.kmer.gz colour: 0
+[11 Dec 2019 21:13:01-rUV]  SE reads: 2,421,675  PE reads: 0
+[11 Dec 2019 21:13:01-rUV]  good reads: 2,421,675  bad reads: 0
+[11 Dec 2019 21:13:01-rUV]  dup SE reads: 0  dup PE pairs: 0
+[11 Dec 2019 21:13:01-rUV]  bases read: 36,325,125  bases loaded: 36,325,125
+[11 Dec 2019 21:13:01-rUV]  num contigs: 2,421,675  num kmers: 2,421,675 novel kmers: 2,421,675
+[11 Dec 2019 21:13:01-rUV] Dumping graph...
+[11 Dec 2019 21:13:01-rUV][graphwriter] Saving file to: microbial/bigsi/15/mccortex.SRR8088185.ctx
+[11 Dec 2019 21:13:01-rUV][FileFilter] Writing graph  [1 src colour]
+[11 Dec 2019 21:13:01-rUV][graphwriter] Dumped 2,421,675 kmers in 1 colour into: microbial/bigsi/15/mccortex.SRR8088185.ctx (ver: 6)
+[11 Dec 2019 21:13:01-rUV][memory] We made 19 allocs
+[11 Dec 2019 21:13:01-rUV] Done.
+[11 Dec 2019 21:13:01-rUV][time] 4.00 seconds
+	Command being timed: "mccortex 15 build --nkmers 61000000 --threads 1 --kmer 15 --mem 3G --sample SRR8088185 --seq microbial/kmer-counts-jellyfish/15/SRR8088185.kmer.gz microbial/bigsi/15/mccortex.SRR8088185.ctx"
+	User time (seconds): 4.55
+	System time (seconds): 2.38
+	Percent of CPU this job got: 168%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 750828
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 564803
+	Voluntary context switches: 245544
+	Involuntary context switches: 12798
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 61504
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

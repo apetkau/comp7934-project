@@ -1,0 +1,58 @@
+[11 Dec 2019 22:35:13-MoS][cmd] /home/CSCScience.ca/apetkau/miniconda3/envs/bigsi_mccortex/bin/mccortex31 build --nkmers 72000000 --threads 1 --kmer 15 --mem 5G --sample SRR403006 --seq human/kmer-counts-jellyfish/15/SRR403006.kmer.gz human/bigsi/15/mccortex.SRR403006.ctx
+[11 Dec 2019 22:35:13-MoS][cwd] /home/CSCScience.ca/apetkau/workspace/comp7934-project
+[11 Dec 2019 22:35:13-MoS][version] mccortex=v0.0.3-610-g400c0e3 zlib=1.2.11 htslib=1.8-17-g699ed53 ASSERTS=ON hash=Lookup3 CHECKS=ON k=3..31
+[11 Dec 2019 22:35:13-MoS] Saving graph to: human/bigsi/15/mccortex.SRR403006.ctx
+[11 Dec 2019 22:35:13-MoS][sample] 0: SRR403006
+[11 Dec 2019 22:35:13-MoS][task] human/kmer-counts-jellyfish/15/SRR403006.kmer.gz; FASTQ offset: auto-detect, threshold: off; cut homopolymers: off; remove PCR duplicates: no; colour: 0
+[11 Dec 2019 22:35:13-MoS][memory] 104 bits per kmer
+[11 Dec 2019 22:35:13-MoS] Note: Using less memory than requested (914MB < 5GB); allows for 73,400,320 kmers
+[11 Dec 2019 22:35:13-MoS][memory] graph: 914MB
+[11 Dec 2019 22:35:13-MoS][memory] total: 914MB of 62.6GB RAM
+[11 Dec 2019 22:35:13-MoS] Writing 1 colour graph to human/bigsi/15/mccortex.SRR403006.ctx
+[11 Dec 2019 22:35:13-MoS][hasht] Allocating table with 73,400,320 entries, using 564MB
+[11 Dec 2019 22:35:13-MoS][hasht]  number of buckets: 2,097,152, bucket size: 35
+[11 Dec 2019 22:35:13-MoS][graph] kmer-size: 15; colours: 1; capacity: 73,400,320
+[11 Dec 2019 22:35:13-MoS][hasht] buckets: 2,097,152 [2^21]; bucket size: 35; 
+[11 Dec 2019 22:35:13-MoS][hasht] memory: 564MB; filled: 0 / 73,400,320 (0.00%)
+[11 Dec 2019 22:35:13-MoS][asyncio] Inputs: 1; Threads: 1
+[11 Dec 2019 22:35:13-MoS][seq] Parsing sequence file human/kmer-counts-jellyfish/15/SRR403006.kmer.gz
+[11 Dec 2019 22:35:21-MoS][seq] Loaded 4,564,029 reads and 0 reads pairs (file: human/kmer-counts-jellyfish/15/SRR403006.kmer.gz)
+[11 Dec 2019 22:35:21-MoS][hasht] buckets: 2,097,152 [2^21]; bucket size: 35; 
+[11 Dec 2019 22:35:21-MoS][hasht] memory: 564MB; filled: 4,564,029 / 73,400,320 (6.22%)
+[11 Dec 2019 22:35:21-MoS][hasht]  collisions  0: 4564029
+[11 Dec 2019 22:35:21-MoS][task] input: human/kmer-counts-jellyfish/15/SRR403006.kmer.gz colour: 0
+[11 Dec 2019 22:35:21-MoS]  SE reads: 4,564,029  PE reads: 0
+[11 Dec 2019 22:35:21-MoS]  good reads: 4,564,029  bad reads: 0
+[11 Dec 2019 22:35:21-MoS]  dup SE reads: 0  dup PE pairs: 0
+[11 Dec 2019 22:35:21-MoS]  bases read: 68,460,435  bases loaded: 68,460,435
+[11 Dec 2019 22:35:21-MoS]  num contigs: 4,564,029  num kmers: 4,564,029 novel kmers: 4,564,029
+[11 Dec 2019 22:35:21-MoS] Dumping graph...
+[11 Dec 2019 22:35:21-MoS][graphwriter] Saving file to: human/bigsi/15/mccortex.SRR403006.ctx
+[11 Dec 2019 22:35:21-MoS][FileFilter] Writing graph  [1 src colour]
+[11 Dec 2019 22:35:22-MoS][graphwriter] Dumped 4,564,029 kmers in 1 colour into: human/bigsi/15/mccortex.SRR403006.ctx (ver: 6)
+[11 Dec 2019 22:35:22-MoS][memory] We made 19 allocs
+[11 Dec 2019 22:35:22-MoS] Done.
+[11 Dec 2019 22:35:22-MoS][time] 9.00 seconds
+	Command being timed: "mccortex 15 build --nkmers 72000000 --threads 1 --kmer 15 --mem 5G --sample SRR403006 --seq human/kmer-counts-jellyfish/15/SRR403006.kmer.gz human/bigsi/15/mccortex.SRR403006.ctx"
+	User time (seconds): 9.87
+	System time (seconds): 4.93
+	Percent of CPU this job got: 164%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 873460
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1121204
+	Voluntary context switches: 528623
+	Involuntary context switches: 13008
+	Swaps: 0
+	File system inputs: 45168
+	File system outputs: 115896
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

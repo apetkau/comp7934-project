@@ -1,0 +1,59 @@
+[11 Dec 2019 23:20:02-yAC][cmd] /home/CSCScience.ca/apetkau/miniconda3/envs/bigsi_mccortex/bin/mccortex31 build --nkmers 2100000 --threads 1 --kmer 11 --mem 3G --sample SRR8088183 --seq microbial/kmer-counts-jellyfish/11/SRR8088183.kmer.gz microbial/bigsi/11/mccortex.SRR8088183.ctx
+[11 Dec 2019 23:20:02-yAC][cwd] /home/CSCScience.ca/apetkau/workspace/comp7934-project
+[11 Dec 2019 23:20:02-yAC][version] mccortex=v0.0.3-610-g400c0e3 zlib=1.2.11 htslib=1.8-17-g699ed53 ASSERTS=ON hash=Lookup3 CHECKS=ON k=3..31
+[11 Dec 2019 23:20:02-yAC] Saving graph to: microbial/bigsi/11/mccortex.SRR8088183.ctx
+[11 Dec 2019 23:20:02-yAC][sample] 0: SRR8088183
+[11 Dec 2019 23:20:02-yAC][task] microbial/kmer-counts-jellyfish/11/SRR8088183.kmer.gz; FASTQ offset: auto-detect, threshold: off; cut homopolymers: off; remove PCR duplicates: no; colour: 0
+[11 Dec 2019 23:20:02-yAC][memory] 104 bits per kmer
+[11 Dec 2019 23:20:02-yAC] Note: Using less memory than requested (26.9MB < 3GB); allows for 2,162,688 kmers
+[11 Dec 2019 23:20:02-yAC][memory] graph: 26.9MB
+[11 Dec 2019 23:20:02-yAC][memory] total: 26.9MB of 62.6GB RAM
+[11 Dec 2019 23:20:02-yAC] Writing 1 colour graph to microbial/bigsi/11/mccortex.SRR8088183.ctx
+[11 Dec 2019 23:20:02-yAC][hasht] Allocating table with 2,162,688 entries, using 16.6MB
+[11 Dec 2019 23:20:02-yAC][hasht]  number of buckets: 65,536, bucket size: 33
+[11 Dec 2019 23:20:02-yAC][graph] kmer-size: 11; colours: 1; capacity: 2,162,688
+[11 Dec 2019 23:20:02-yAC][hasht] buckets: 65,536 [2^16]; bucket size: 33; 
+[11 Dec 2019 23:20:02-yAC][hasht] memory: 16.6MB; filled: 0 / 2,162,688 (0.00%)
+[11 Dec 2019 23:20:02-yAC][asyncio] Inputs: 1; Threads: 1
+[11 Dec 2019 23:20:02-yAC][seq] Parsing sequence file microbial/kmer-counts-jellyfish/11/SRR8088183.kmer.gz
+[11 Dec 2019 23:20:03-yAC][seq] Loaded 981,690 reads and 0 reads pairs (file: microbial/kmer-counts-jellyfish/11/SRR8088183.kmer.gz)
+[11 Dec 2019 23:20:03-yAC][hasht] buckets: 65,536 [2^16]; bucket size: 33; 
+[11 Dec 2019 23:20:03-yAC][hasht] memory: 16.6MB; filled: 981,690 / 2,162,688 (45.39%)
+[11 Dec 2019 23:20:03-yAC][hasht]  collisions  0: 981683
+[11 Dec 2019 23:20:03-yAC][hasht]  collisions  1: 7
+[11 Dec 2019 23:20:03-yAC][task] input: microbial/kmer-counts-jellyfish/11/SRR8088183.kmer.gz colour: 0
+[11 Dec 2019 23:20:03-yAC]  SE reads: 981,690  PE reads: 0
+[11 Dec 2019 23:20:03-yAC]  good reads: 981,690  bad reads: 0
+[11 Dec 2019 23:20:03-yAC]  dup SE reads: 0  dup PE pairs: 0
+[11 Dec 2019 23:20:03-yAC]  bases read: 10,798,590  bases loaded: 10,798,590
+[11 Dec 2019 23:20:03-yAC]  num contigs: 981,690  num kmers: 981,690 novel kmers: 981,690
+[11 Dec 2019 23:20:03-yAC] Dumping graph...
+[11 Dec 2019 23:20:03-yAC][graphwriter] Saving file to: microbial/bigsi/11/mccortex.SRR8088183.ctx
+[11 Dec 2019 23:20:03-yAC][FileFilter] Writing graph  [1 src colour]
+[11 Dec 2019 23:20:03-yAC][graphwriter] Dumped 981,690 kmers in 1 colour into: microbial/bigsi/11/mccortex.SRR8088183.ctx (ver: 6)
+[11 Dec 2019 23:20:03-yAC][memory] We made 19 allocs
+[11 Dec 2019 23:20:03-yAC] Done.
+[11 Dec 2019 23:20:03-yAC][time] 1.00 seconds
+	Command being timed: "mccortex 11 build --nkmers 2100000 --threads 1 --kmer 11 --mem 3G --sample SRR8088183 --seq microbial/kmer-counts-jellyfish/11/SRR8088183.kmer.gz microbial/bigsi/11/mccortex.SRR8088183.ctx"
+	User time (seconds): 1.53
+	System time (seconds): 0.25
+	Percent of CPU this job got: 170%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11039
+	Voluntary context switches: 5664
+	Involuntary context switches: 1863
+	Swaps: 0
+	File system inputs: 7312
+	File system outputs: 24936
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

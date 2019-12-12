@@ -1,0 +1,59 @@
+[11 Dec 2019 22:34:14-kIC][cmd] /home/CSCScience.ca/apetkau/miniconda3/envs/bigsi_mccortex/bin/mccortex31 build --nkmers 72000000 --threads 1 --kmer 15 --mem 5G --sample SRR1519066 --seq human/kmer-counts-jellyfish/15/SRR1519066.kmer.gz human/bigsi/15/mccortex.SRR1519066.ctx
+[11 Dec 2019 22:34:14-kIC][cwd] /home/CSCScience.ca/apetkau/workspace/comp7934-project
+[11 Dec 2019 22:34:14-kIC][version] mccortex=v0.0.3-610-g400c0e3 zlib=1.2.11 htslib=1.8-17-g699ed53 ASSERTS=ON hash=Lookup3 CHECKS=ON k=3..31
+[11 Dec 2019 22:34:14-kIC] Saving graph to: human/bigsi/15/mccortex.SRR1519066.ctx
+[11 Dec 2019 22:34:14-kIC][sample] 0: SRR1519066
+[11 Dec 2019 22:34:14-kIC][task] human/kmer-counts-jellyfish/15/SRR1519066.kmer.gz; FASTQ offset: auto-detect, threshold: off; cut homopolymers: off; remove PCR duplicates: no; colour: 0
+[11 Dec 2019 22:34:14-kIC][memory] 104 bits per kmer
+[11 Dec 2019 22:34:14-kIC] Note: Using less memory than requested (914MB < 5GB); allows for 73,400,320 kmers
+[11 Dec 2019 22:34:14-kIC][memory] graph: 914MB
+[11 Dec 2019 22:34:14-kIC][memory] total: 914MB of 62.6GB RAM
+[11 Dec 2019 22:34:14-kIC] Writing 1 colour graph to human/bigsi/15/mccortex.SRR1519066.ctx
+[11 Dec 2019 22:34:14-kIC][hasht] Allocating table with 73,400,320 entries, using 564MB
+[11 Dec 2019 22:34:14-kIC][hasht]  number of buckets: 2,097,152, bucket size: 35
+[11 Dec 2019 22:34:14-kIC][graph] kmer-size: 15; colours: 1; capacity: 73,400,320
+[11 Dec 2019 22:34:14-kIC][hasht] buckets: 2,097,152 [2^21]; bucket size: 35; 
+[11 Dec 2019 22:34:14-kIC][hasht] memory: 564MB; filled: 0 / 73,400,320 (0.00%)
+[11 Dec 2019 22:34:14-kIC][asyncio] Inputs: 1; Threads: 1
+[11 Dec 2019 22:34:14-kIC][seq] Parsing sequence file human/kmer-counts-jellyfish/15/SRR1519066.kmer.gz
+[11 Dec 2019 22:34:23-kIC][BuildGraph] Read 5,000,000 entries (reads / read pairs)
+[11 Dec 2019 22:34:24-kIC][seq] Loaded 5,617,109 reads and 0 reads pairs (file: human/kmer-counts-jellyfish/15/SRR1519066.kmer.gz)
+[11 Dec 2019 22:34:24-kIC][hasht] buckets: 2,097,152 [2^21]; bucket size: 35; 
+[11 Dec 2019 22:34:24-kIC][hasht] memory: 564MB; filled: 5,617,109 / 73,400,320 (7.65%)
+[11 Dec 2019 22:34:24-kIC][hasht]  collisions  0: 5617109
+[11 Dec 2019 22:34:24-kIC][task] input: human/kmer-counts-jellyfish/15/SRR1519066.kmer.gz colour: 0
+[11 Dec 2019 22:34:24-kIC]  SE reads: 5,617,109  PE reads: 0
+[11 Dec 2019 22:34:24-kIC]  good reads: 5,617,109  bad reads: 0
+[11 Dec 2019 22:34:24-kIC]  dup SE reads: 0  dup PE pairs: 0
+[11 Dec 2019 22:34:24-kIC]  bases read: 84,256,635  bases loaded: 84,256,635
+[11 Dec 2019 22:34:24-kIC]  num contigs: 5,617,109  num kmers: 5,617,109 novel kmers: 5,617,109
+[11 Dec 2019 22:34:24-kIC] Dumping graph...
+[11 Dec 2019 22:34:24-kIC][graphwriter] Saving file to: human/bigsi/15/mccortex.SRR1519066.ctx
+[11 Dec 2019 22:34:24-kIC][FileFilter] Writing graph  [1 src colour]
+[11 Dec 2019 22:34:24-kIC][graphwriter] Dumped 5,617,109 kmers in 1 colour into: human/bigsi/15/mccortex.SRR1519066.ctx (ver: 6)
+[11 Dec 2019 22:34:24-kIC][memory] We made 19 allocs
+[11 Dec 2019 22:34:24-kIC] Done.
+[11 Dec 2019 22:34:24-kIC][time] 10.00 seconds
+	Command being timed: "mccortex 15 build --nkmers 72000000 --threads 1 --kmer 15 --mem 5G --sample SRR1519066 --seq human/kmer-counts-jellyfish/15/SRR1519066.kmer.gz human/bigsi/15/mccortex.SRR1519066.ctx"
+	User time (seconds): 14.20
+	System time (seconds): 4.04
+	Percent of CPU this job got: 173%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 873524
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 953042
+	Voluntary context switches: 405629
+	Involuntary context switches: 2693
+	Swaps: 0
+	File system inputs: 55640
+	File system outputs: 142632
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

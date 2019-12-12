@@ -57,20 +57,20 @@ DEBUG:bigsi.graph.index:Transpose bitarrays
 DEBUG:bigsi.graph.index:Insert rows
 DEBUG:bigsi.storage.base:set bitarrays
 	Command being timed: "bigsi build microbial/bigsi/9/bigsi.ERR1144974.bloom microbial/bigsi/9/bigsi.ERR1144975.bloom microbial/bigsi/9/bigsi.ERR1144976.bloom microbial/bigsi/9/bigsi.ERR1144977.bloom microbial/bigsi/9/bigsi.ERR1144978.bloom microbial/bigsi/9/bigsi.ERR3655992.bloom microbial/bigsi/9/bigsi.ERR3655994.bloom microbial/bigsi/9/bigsi.ERR3655996.bloom microbial/bigsi/9/bigsi.ERR3655998.bloom microbial/bigsi/9/bigsi.ERR3656002.bloom microbial/bigsi/9/bigsi.ERR3656004.bloom microbial/bigsi/9/bigsi.ERR3656010.bloom microbial/bigsi/9/bigsi.ERR3656012.bloom microbial/bigsi/9/bigsi.ERR3656013.bloom microbial/bigsi/9/bigsi.ERR3656015.bloom microbial/bigsi/9/bigsi.ERR3656018.bloom microbial/bigsi/9/bigsi.ERR3656019.bloom microbial/bigsi/9/bigsi.SRR10298903.bloom microbial/bigsi/9/bigsi.SRR10298904.bloom microbial/bigsi/9/bigsi.SRR10298905.bloom microbial/bigsi/9/bigsi.SRR10298906.bloom microbial/bigsi/9/bigsi.SRR10298907.bloom microbial/bigsi/9/bigsi.SRR10512964.bloom microbial/bigsi/9/bigsi.SRR10512965.bloom microbial/bigsi/9/bigsi.SRR10512968.bloom microbial/bigsi/9/bigsi.SRR10513325.bloom microbial/bigsi/9/bigsi.SRR10513326.bloom microbial/bigsi/9/bigsi.SRR10513328.bloom microbial/bigsi/9/bigsi.SRR10513363.bloom microbial/bigsi/9/bigsi.SRR10513672.bloom microbial/bigsi/9/bigsi.SRR10519468.bloom microbial/bigsi/9/bigsi.SRR10519469.bloom microbial/bigsi/9/bigsi.SRR10519616.bloom microbial/bigsi/9/bigsi.SRR10519617.bloom microbial/bigsi/9/bigsi.SRR10519619.bloom microbial/bigsi/9/bigsi.SRR10519620.bloom microbial/bigsi/9/bigsi.SRR10519637.bloom microbial/bigsi/9/bigsi.SRR10521982.bloom microbial/bigsi/9/bigsi.SRR10521983.bloom microbial/bigsi/9/bigsi.SRR10521984.bloom microbial/bigsi/9/bigsi.SRR10527348.bloom microbial/bigsi/9/bigsi.SRR10527349.bloom microbial/bigsi/9/bigsi.SRR10527351.bloom microbial/bigsi/9/bigsi.SRR10527352.bloom microbial/bigsi/9/bigsi.SRR10527353.bloom microbial/bigsi/9/bigsi.SRR8088181.bloom microbial/bigsi/9/bigsi.SRR8088182.bloom microbial/bigsi/9/bigsi.SRR8088183.bloom microbial/bigsi/9/bigsi.SRR8088184.bloom microbial/bigsi/9/bigsi.SRR8088185.bloom -s ERR1144974 -s ERR1144975 -s ERR1144976 -s ERR1144977 -s ERR1144978 -s ERR3655992 -s ERR3655994 -s ERR3655996 -s ERR3655998 -s ERR3656002 -s ERR3656004 -s ERR3656010 -s ERR3656012 -s ERR3656013 -s ERR3656015 -s ERR3656018 -s ERR3656019 -s SRR10298903 -s SRR10298904 -s SRR10298905 -s SRR10298906 -s SRR10298907 -s SRR10512964 -s SRR10512965 -s SRR10512968 -s SRR10513325 -s SRR10513326 -s SRR10513328 -s SRR10513363 -s SRR10513672 -s SRR10519468 -s SRR10519469 -s SRR10519616 -s SRR10519617 -s SRR10519619 -s SRR10519620 -s SRR10519637 -s SRR10521982 -s SRR10521983 -s SRR10521984 -s SRR10527348 -s SRR10527349 -s SRR10527351 -s SRR10527352 -s SRR10527353 -s SRR8088181 -s SRR8088182 -s SRR8088183 -s SRR8088184 -s SRR8088185"
-	User time (seconds): 4.11
-	System time (seconds): 3.87
-	Percent of CPU this job got: 379%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.10
+	User time (seconds): 4.03
+	System time (seconds): 3.91
+	Percent of CPU this job got: 395%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.00
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 78060
+	Maximum resident set size (kbytes): 77552
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 22284
-	Voluntary context switches: 154
-	Involuntary context switches: 352604
+	Minor (reclaiming a frame) page faults: 13551
+	Voluntary context switches: 139
+	Involuntary context switches: 313516
 	Swaps: 0
 	File system inputs: 8
 	File system outputs: 8648

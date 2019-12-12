@@ -1,0 +1,67 @@
+[11 Dec 2019 23:11:59-Dim][cmd] /home/CSCScience.ca/apetkau/miniconda3/envs/bigsi_mccortex/bin/mccortex31 build --nkmers 140000 --threads 1 --kmer 9 --mem 10G --sample ERR1713333 --seq metagenomics/kmer-counts-jellyfish/9/ERR1713333.kmer.gz metagenomics/bigsi/9/mccortex.ERR1713333.ctx
+[11 Dec 2019 23:11:59-Dim][cwd] /home/CSCScience.ca/apetkau/workspace/comp7934-project
+[11 Dec 2019 23:11:59-Dim][version] mccortex=v0.0.3-610-g400c0e3 zlib=1.2.11 htslib=1.8-17-g699ed53 ASSERTS=ON hash=Lookup3 CHECKS=ON k=3..31
+[11 Dec 2019 23:11:59-Dim] Saving graph to: metagenomics/bigsi/9/mccortex.ERR1713333.ctx
+[11 Dec 2019 23:11:59-Dim][sample] 0: ERR1713333
+[11 Dec 2019 23:11:59-Dim][task] metagenomics/kmer-counts-jellyfish/9/ERR1713333.kmer.gz; FASTQ offset: auto-detect, threshold: off; cut homopolymers: off; remove PCR duplicates: no; colour: 0
+[11 Dec 2019 23:11:59-Dim][memory] 104 bits per kmer
+[11 Dec 2019 23:11:59-Dim] Note: Using less memory than requested (1.8MB < 10GB); allows for 143,360 kmers
+[11 Dec 2019 23:11:59-Dim][memory] graph: 1.8MB
+[11 Dec 2019 23:11:59-Dim][memory] total: 1.8MB of 62.6GB RAM
+[11 Dec 2019 23:11:59-Dim] Writing 1 colour graph to metagenomics/bigsi/9/mccortex.ERR1713333.ctx
+[11 Dec 2019 23:11:59-Dim][hasht] Allocating table with 143,360 entries, using 1.1MB
+[11 Dec 2019 23:11:59-Dim][hasht]  number of buckets: 4,096, bucket size: 35
+[11 Dec 2019 23:11:59-Dim][graph] kmer-size: 9; colours: 1; capacity: 143,360
+[11 Dec 2019 23:11:59-Dim][hasht] buckets: 4,096 [2^12]; bucket size: 35; 
+[11 Dec 2019 23:11:59-Dim][hasht] memory: 1.1MB; filled: 0 / 143,360 (0.00%)
+[11 Dec 2019 23:11:59-Dim][asyncio] Inputs: 1; Threads: 1
+[11 Dec 2019 23:11:59-Dim][seq] Parsing sequence file metagenomics/kmer-counts-jellyfish/9/ERR1713333.kmer.gz
+[11 Dec 2019 23:11:59-Dim][seq] Loaded 131,070 reads and 0 reads pairs (file: metagenomics/kmer-counts-jellyfish/9/ERR1713333.kmer.gz)
+[11 Dec 2019 23:11:59-Dim][hasht] buckets: 4,096 [2^12]; bucket size: 35; 
+[11 Dec 2019 23:11:59-Dim][hasht] memory: 1.1MB; filled: 131,070 / 143,360 (91.43%)
+[11 Dec 2019 23:11:59-Dim][hasht]  collisions  0: 125779
+[11 Dec 2019 23:11:59-Dim][hasht]  collisions  1: 4111
+[11 Dec 2019 23:11:59-Dim][hasht]  collisions  2: 863
+[11 Dec 2019 23:11:59-Dim][hasht]  collisions  3: 216
+[11 Dec 2019 23:11:59-Dim][hasht]  collisions  4: 68
+[11 Dec 2019 23:11:59-Dim][hasht]  collisions  5: 23
+[11 Dec 2019 23:11:59-Dim][hasht]  collisions  6: 6
+[11 Dec 2019 23:11:59-Dim][hasht]  collisions  7: 1
+[11 Dec 2019 23:11:59-Dim][hasht]  collisions  8: 1
+[11 Dec 2019 23:11:59-Dim][hasht]  collisions  9: 2
+[11 Dec 2019 23:11:59-Dim][task] input: metagenomics/kmer-counts-jellyfish/9/ERR1713333.kmer.gz colour: 0
+[11 Dec 2019 23:11:59-Dim]  SE reads: 131,070  PE reads: 0
+[11 Dec 2019 23:11:59-Dim]  good reads: 131,070  bad reads: 0
+[11 Dec 2019 23:11:59-Dim]  dup SE reads: 0  dup PE pairs: 0
+[11 Dec 2019 23:11:59-Dim]  bases read: 1,179,630  bases loaded: 1,179,630
+[11 Dec 2019 23:11:59-Dim]  num contigs: 131,070  num kmers: 131,070 novel kmers: 131,070
+[11 Dec 2019 23:11:59-Dim] Dumping graph...
+[11 Dec 2019 23:11:59-Dim][graphwriter] Saving file to: metagenomics/bigsi/9/mccortex.ERR1713333.ctx
+[11 Dec 2019 23:11:59-Dim][FileFilter] Writing graph  [1 src colour]
+[11 Dec 2019 23:11:59-Dim][graphwriter] Dumped 131,070 kmers in 1 colour into: metagenomics/bigsi/9/mccortex.ERR1713333.ctx (ver: 6)
+[11 Dec 2019 23:11:59-Dim][memory] We made 19 allocs
+[11 Dec 2019 23:11:59-Dim] Done.
+[11 Dec 2019 23:11:59-Dim][time] 0.00 seconds
+	Command being timed: "mccortex 9 build --nkmers 140000 --threads 1 --kmer 9 --mem 10G --sample ERR1713333 --seq metagenomics/kmer-counts-jellyfish/9/ERR1713333.kmer.gz metagenomics/bigsi/9/mccortex.ERR1713333.ctx"
+	User time (seconds): 0.14
+	System time (seconds): 0.02
+	Percent of CPU this job got: 154%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 10520
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2595
+	Voluntary context switches: 129
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 816
+	File system outputs: 3344
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

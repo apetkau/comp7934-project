@@ -1,20 +1,20 @@
 /home/CSCScience.ca/apetkau/miniconda3/envs/bigsi_mccortex/lib/python3.7/site-packages/bigsi/__main__.py:45: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
   config = yaml.load(infile)
 	Command being timed: "bigsi bloom microbial/bigsi/9/mccortex.SRR10519620.ctx microbial/bigsi/9/bigsi.SRR10519620.bloom"
-	User time (seconds): 3.35
-	System time (seconds): 1.72
-	Percent of CPU this job got: 156%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.25
+	User time (seconds): 3.72
+	System time (seconds): 2.14
+	Percent of CPU this job got: 174%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.35
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 70320
+	Maximum resident set size (kbytes): 69848
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 21401
-	Voluntary context switches: 147
-	Involuntary context switches: 768808
+	Minor (reclaiming a frame) page faults: 21238
+	Voluntary context switches: 127
+	Involuntary context switches: 880839
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 48

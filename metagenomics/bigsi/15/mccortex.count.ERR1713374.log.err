@@ -1,0 +1,59 @@
+[11 Dec 2019 21:35:23-kOy][cmd] /home/CSCScience.ca/apetkau/miniconda3/envs/bigsi_mccortex/bin/mccortex31 build --nkmers 210000000 --threads 1 --kmer 15 --mem 10G --sample ERR1713374 --seq metagenomics/kmer-counts-jellyfish/15/ERR1713374.kmer.gz metagenomics/bigsi/15/mccortex.ERR1713374.ctx
+[11 Dec 2019 21:35:23-kOy][cwd] /home/CSCScience.ca/apetkau/workspace/comp7934-project
+[11 Dec 2019 21:35:23-kOy][version] mccortex=v0.0.3-610-g400c0e3 zlib=1.2.11 htslib=1.8-17-g699ed53 ASSERTS=ON hash=Lookup3 CHECKS=ON k=3..31
+[11 Dec 2019 21:35:23-kOy] Saving graph to: metagenomics/bigsi/15/mccortex.ERR1713374.ctx
+[11 Dec 2019 21:35:23-kOy][sample] 0: ERR1713374
+[11 Dec 2019 21:35:23-kOy][task] metagenomics/kmer-counts-jellyfish/15/ERR1713374.kmer.gz; FASTQ offset: auto-detect, threshold: off; cut homopolymers: off; remove PCR duplicates: no; colour: 0
+[11 Dec 2019 21:35:23-kOy][memory] 104 bits per kmer
+[11 Dec 2019 21:35:23-kOy] Note: Using less memory than requested (2.7GB < 10GB); allows for 218,103,808 kmers
+[11 Dec 2019 21:35:23-kOy][memory] graph: 2.7GB
+[11 Dec 2019 21:35:23-kOy][memory] total: 2.7GB of 62.6GB RAM
+[11 Dec 2019 21:35:23-kOy] Writing 1 colour graph to metagenomics/bigsi/15/mccortex.ERR1713374.ctx
+[11 Dec 2019 21:35:23-kOy][hasht] Allocating table with 218,103,808 entries, using 1.6GB
+[11 Dec 2019 21:35:23-kOy][hasht]  number of buckets: 8,388,608, bucket size: 26
+[11 Dec 2019 21:35:23-kOy][graph] kmer-size: 15; colours: 1; capacity: 218,103,808
+[11 Dec 2019 21:35:23-kOy][hasht] buckets: 8,388,608 [2^23]; bucket size: 26; 
+[11 Dec 2019 21:35:23-kOy][hasht] memory: 1.6GB; filled: 0 / 218,103,808 (0.00%)
+[11 Dec 2019 21:35:23-kOy][asyncio] Inputs: 1; Threads: 1
+[11 Dec 2019 21:35:23-kOy][seq] Parsing sequence file metagenomics/kmer-counts-jellyfish/15/ERR1713374.kmer.gz
+[11 Dec 2019 21:35:33-kOy][BuildGraph] Read 5,000,000 entries (reads / read pairs)
+[11 Dec 2019 21:35:37-kOy][seq] Loaded 7,935,294 reads and 0 reads pairs (file: metagenomics/kmer-counts-jellyfish/15/ERR1713374.kmer.gz)
+[11 Dec 2019 21:35:37-kOy][hasht] buckets: 8,388,608 [2^23]; bucket size: 26; 
+[11 Dec 2019 21:35:37-kOy][hasht] memory: 1.6GB; filled: 7,935,294 / 218,103,808 (3.64%)
+[11 Dec 2019 21:35:37-kOy][hasht]  collisions  0: 7935294
+[11 Dec 2019 21:35:37-kOy][task] input: metagenomics/kmer-counts-jellyfish/15/ERR1713374.kmer.gz colour: 0
+[11 Dec 2019 21:35:37-kOy]  SE reads: 7,935,294  PE reads: 0
+[11 Dec 2019 21:35:37-kOy]  good reads: 7,935,294  bad reads: 0
+[11 Dec 2019 21:35:37-kOy]  dup SE reads: 0  dup PE pairs: 0
+[11 Dec 2019 21:35:37-kOy]  bases read: 119,029,410  bases loaded: 119,029,410
+[11 Dec 2019 21:35:37-kOy]  num contigs: 7,935,294  num kmers: 7,935,294 novel kmers: 7,935,294
+[11 Dec 2019 21:35:37-kOy] Dumping graph...
+[11 Dec 2019 21:35:37-kOy][graphwriter] Saving file to: metagenomics/bigsi/15/mccortex.ERR1713374.ctx
+[11 Dec 2019 21:35:37-kOy][FileFilter] Writing graph  [1 src colour]
+[11 Dec 2019 21:35:39-kOy][graphwriter] Dumped 7,935,294 kmers in 1 colour into: metagenomics/bigsi/15/mccortex.ERR1713374.ctx (ver: 6)
+[11 Dec 2019 21:35:39-kOy][memory] We made 19 allocs
+[11 Dec 2019 21:35:39-kOy] Done.
+[11 Dec 2019 21:35:39-kOy][time] 16.00 seconds
+	Command being timed: "mccortex 15 build --nkmers 210000000 --threads 1 --kmer 15 --mem 10G --sample ERR1713374 --seq metagenomics/kmer-counts-jellyfish/15/ERR1713374.kmer.gz metagenomics/bigsi/15/mccortex.ERR1713374.ctx"
+	User time (seconds): 18.03
+	System time (seconds): 9.26
+	Percent of CPU this job got: 169%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2582436
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2848782
+	Voluntary context switches: 1424700
+	Involuntary context switches: 27187
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 201496
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

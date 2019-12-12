@@ -1,0 +1,61 @@
+[11 Dec 2019 23:24:39-gUZ][cmd] /home/CSCScience.ca/apetkau/miniconda3/envs/bigsi_mccortex/bin/mccortex31 build --nkmers 2100000 --threads 1 --kmer 11 --mem 5G --sample SRR1294106 --seq human/kmer-counts-jellyfish/11/SRR1294106.kmer.gz human/bigsi/11/mccortex.SRR1294106.ctx
+[11 Dec 2019 23:24:39-gUZ][cwd] /home/CSCScience.ca/apetkau/workspace/comp7934-project
+[11 Dec 2019 23:24:39-gUZ][version] mccortex=v0.0.3-610-g400c0e3 zlib=1.2.11 htslib=1.8-17-g699ed53 ASSERTS=ON hash=Lookup3 CHECKS=ON k=3..31
+[11 Dec 2019 23:24:39-gUZ] Saving graph to: human/bigsi/11/mccortex.SRR1294106.ctx
+[11 Dec 2019 23:24:39-gUZ][sample] 0: SRR1294106
+[11 Dec 2019 23:24:39-gUZ][task] human/kmer-counts-jellyfish/11/SRR1294106.kmer.gz; FASTQ offset: auto-detect, threshold: off; cut homopolymers: off; remove PCR duplicates: no; colour: 0
+[11 Dec 2019 23:24:39-gUZ][memory] 104 bits per kmer
+[11 Dec 2019 23:24:39-gUZ] Note: Using less memory than requested (26.9MB < 5GB); allows for 2,162,688 kmers
+[11 Dec 2019 23:24:39-gUZ][memory] graph: 26.9MB
+[11 Dec 2019 23:24:39-gUZ][memory] total: 26.9MB of 62.6GB RAM
+[11 Dec 2019 23:24:39-gUZ] Writing 1 colour graph to human/bigsi/11/mccortex.SRR1294106.ctx
+[11 Dec 2019 23:24:39-gUZ][hasht] Allocating table with 2,162,688 entries, using 16.6MB
+[11 Dec 2019 23:24:39-gUZ][hasht]  number of buckets: 65,536, bucket size: 33
+[11 Dec 2019 23:24:39-gUZ][graph] kmer-size: 11; colours: 1; capacity: 2,162,688
+[11 Dec 2019 23:24:39-gUZ][hasht] buckets: 65,536 [2^16]; bucket size: 33; 
+[11 Dec 2019 23:24:39-gUZ][hasht] memory: 16.6MB; filled: 0 / 2,162,688 (0.00%)
+[11 Dec 2019 23:24:39-gUZ][asyncio] Inputs: 1; Threads: 1
+[11 Dec 2019 23:24:39-gUZ][seq] Parsing sequence file human/kmer-counts-jellyfish/11/SRR1294106.kmer.gz
+[11 Dec 2019 23:24:40-gUZ][seq] Loaded 1,571,067 reads and 0 reads pairs (file: human/kmer-counts-jellyfish/11/SRR1294106.kmer.gz)
+[11 Dec 2019 23:24:40-gUZ][hasht] buckets: 65,536 [2^16]; bucket size: 33; 
+[11 Dec 2019 23:24:40-gUZ][hasht] memory: 16.6MB; filled: 1,571,067 / 2,162,688 (72.64%)
+[11 Dec 2019 23:24:40-gUZ][hasht]  collisions  0: 1565335
+[11 Dec 2019 23:24:40-gUZ][hasht]  collisions  1: 5551
+[11 Dec 2019 23:24:40-gUZ][hasht]  collisions  2: 174
+[11 Dec 2019 23:24:40-gUZ][hasht]  collisions  3: 7
+[11 Dec 2019 23:24:40-gUZ][task] input: human/kmer-counts-jellyfish/11/SRR1294106.kmer.gz colour: 0
+[11 Dec 2019 23:24:40-gUZ]  SE reads: 1,571,067  PE reads: 0
+[11 Dec 2019 23:24:40-gUZ]  good reads: 1,571,067  bad reads: 0
+[11 Dec 2019 23:24:40-gUZ]  dup SE reads: 0  dup PE pairs: 0
+[11 Dec 2019 23:24:40-gUZ]  bases read: 17,281,737  bases loaded: 17,281,737
+[11 Dec 2019 23:24:40-gUZ]  num contigs: 1,571,067  num kmers: 1,571,067 novel kmers: 1,571,067
+[11 Dec 2019 23:24:40-gUZ] Dumping graph...
+[11 Dec 2019 23:24:40-gUZ][graphwriter] Saving file to: human/bigsi/11/mccortex.SRR1294106.ctx
+[11 Dec 2019 23:24:40-gUZ][FileFilter] Writing graph  [1 src colour]
+[11 Dec 2019 23:24:41-gUZ][graphwriter] Dumped 1,571,067 kmers in 1 colour into: human/bigsi/11/mccortex.SRR1294106.ctx (ver: 6)
+[11 Dec 2019 23:24:41-gUZ][memory] We made 19 allocs
+[11 Dec 2019 23:24:41-gUZ] Done.
+[11 Dec 2019 23:24:41-gUZ][time] 2.00 seconds
+	Command being timed: "mccortex 11 build --nkmers 2100000 --threads 1 --kmer 11 --mem 5G --sample SRR1294106 --seq human/kmer-counts-jellyfish/11/SRR1294106.kmer.gz human/bigsi/11/mccortex.SRR1294106.ctx"
+	User time (seconds): 2.35
+	System time (seconds): 0.38
+	Percent of CPU this job got: 164%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 34492
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18750
+	Voluntary context switches: 7263
+	Involuntary context switches: 1256
+	Swaps: 0
+	File system inputs: 11608
+	File system outputs: 39904
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

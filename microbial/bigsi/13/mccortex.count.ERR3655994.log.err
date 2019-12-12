@@ -1,0 +1,58 @@
+[11 Dec 2019 23:32:18-ZUC][cmd] /home/CSCScience.ca/apetkau/miniconda3/envs/bigsi_mccortex/bin/mccortex31 build --nkmers 24000000 --threads 1 --kmer 13 --mem 3G --sample ERR3655994 --seq microbial/kmer-counts-jellyfish/13/ERR3655994.kmer.gz microbial/bigsi/13/mccortex.ERR3655994.ctx
+[11 Dec 2019 23:32:18-ZUC][cwd] /home/CSCScience.ca/apetkau/workspace/comp7934-project
+[11 Dec 2019 23:32:18-ZUC][version] mccortex=v0.0.3-610-g400c0e3 zlib=1.2.11 htslib=1.8-17-g699ed53 ASSERTS=ON hash=Lookup3 CHECKS=ON k=3..31
+[11 Dec 2019 23:32:18-ZUC] Saving graph to: microbial/bigsi/13/mccortex.ERR3655994.ctx
+[11 Dec 2019 23:32:18-ZUC][sample] 0: ERR3655994
+[11 Dec 2019 23:32:18-ZUC][task] microbial/kmer-counts-jellyfish/13/ERR3655994.kmer.gz; FASTQ offset: auto-detect, threshold: off; cut homopolymers: off; remove PCR duplicates: no; colour: 0
+[11 Dec 2019 23:32:18-ZUC][memory] 104 bits per kmer
+[11 Dec 2019 23:32:18-ZUC] Note: Using less memory than requested (300MB < 3GB); allows for 24,117,248 kmers
+[11 Dec 2019 23:32:18-ZUC][memory] graph: 300MB
+[11 Dec 2019 23:32:18-ZUC][memory] total: 300MB of 62.6GB RAM
+[11 Dec 2019 23:32:18-ZUC] Writing 1 colour graph to microbial/bigsi/13/mccortex.ERR3655994.ctx
+[11 Dec 2019 23:32:18-ZUC][hasht] Allocating table with 24,117,248 entries, using 185MB
+[11 Dec 2019 23:32:18-ZUC][hasht]  number of buckets: 524,288, bucket size: 46
+[11 Dec 2019 23:32:18-ZUC][graph] kmer-size: 13; colours: 1; capacity: 24,117,248
+[11 Dec 2019 23:32:18-ZUC][hasht] buckets: 524,288 [2^19]; bucket size: 46; 
+[11 Dec 2019 23:32:18-ZUC][hasht] memory: 185MB; filled: 0 / 24,117,248 (0.00%)
+[11 Dec 2019 23:32:18-ZUC][asyncio] Inputs: 1; Threads: 1
+[11 Dec 2019 23:32:18-ZUC][seq] Parsing sequence file microbial/kmer-counts-jellyfish/13/ERR3655994.kmer.gz
+[11 Dec 2019 23:32:25-ZUC][seq] Loaded 3,528,916 reads and 0 reads pairs (file: microbial/kmer-counts-jellyfish/13/ERR3655994.kmer.gz)
+[11 Dec 2019 23:32:25-ZUC][hasht] buckets: 524,288 [2^19]; bucket size: 46; 
+[11 Dec 2019 23:32:25-ZUC][hasht] memory: 185MB; filled: 3,528,916 / 24,117,248 (14.63%)
+[11 Dec 2019 23:32:25-ZUC][hasht]  collisions  0: 3528916
+[11 Dec 2019 23:32:25-ZUC][task] input: microbial/kmer-counts-jellyfish/13/ERR3655994.kmer.gz colour: 0
+[11 Dec 2019 23:32:25-ZUC]  SE reads: 3,528,916  PE reads: 0
+[11 Dec 2019 23:32:25-ZUC]  good reads: 3,528,916  bad reads: 0
+[11 Dec 2019 23:32:25-ZUC]  dup SE reads: 0  dup PE pairs: 0
+[11 Dec 2019 23:32:25-ZUC]  bases read: 45,875,908  bases loaded: 45,875,908
+[11 Dec 2019 23:32:25-ZUC]  num contigs: 3,528,916  num kmers: 3,528,916 novel kmers: 3,528,916
+[11 Dec 2019 23:32:25-ZUC] Dumping graph...
+[11 Dec 2019 23:32:25-ZUC][graphwriter] Saving file to: microbial/bigsi/13/mccortex.ERR3655994.ctx
+[11 Dec 2019 23:32:25-ZUC][FileFilter] Writing graph  [1 src colour]
+[11 Dec 2019 23:32:25-ZUC][graphwriter] Dumped 3,528,916 kmers in 1 colour into: microbial/bigsi/13/mccortex.ERR3655994.ctx (ver: 6)
+[11 Dec 2019 23:32:25-ZUC][memory] We made 19 allocs
+[11 Dec 2019 23:32:25-ZUC] Done.
+[11 Dec 2019 23:32:25-ZUC][time] 7.00 seconds
+	Command being timed: "mccortex 13 build --nkmers 24000000 --threads 1 --kmer 13 --mem 3G --sample ERR3655994 --seq microbial/kmer-counts-jellyfish/13/ERR3655994.kmer.gz microbial/bigsi/13/mccortex.ERR3655994.ctx"
+	User time (seconds): 9.98
+	System time (seconds): 2.18
+	Percent of CPU this job got: 161%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 292668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 319331
+	Voluntary context switches: 141669
+	Involuntary context switches: 32441
+	Swaps: 0
+	File system inputs: 30400
+	File system outputs: 89616
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

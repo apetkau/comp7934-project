@@ -1,0 +1,81 @@
+/home/CSCScience.ca/apetkau/miniconda3/envs/bigsi_mccortex/lib/python3.7/site-packages/bigsi/__main__.py:45: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  config = yaml.load(infile)
+INFO:bigsi.cmds.build:Building index: 0/1
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR038300.bloom/bigsi.SRR038300.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR039632.bloom/bigsi.SRR039632.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1012332.bloom/bigsi.SRR1012332.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1024141.bloom/bigsi.SRR1024141.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1033463.bloom/bigsi.SRR1033463.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1035695.bloom/bigsi.SRR1035695.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1047817.bloom/bigsi.SRR1047817.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1060774.bloom/bigsi.SRR1060774.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1174334.bloom/bigsi.SRR1174334.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1193574.bloom/bigsi.SRR1193574.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1292581.bloom/bigsi.SRR1292581.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1294106.bloom/bigsi.SRR1294106.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1303626.bloom/bigsi.SRR1303626.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1313077.bloom/bigsi.SRR1313077.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1313078.bloom/bigsi.SRR1313078.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1313092.bloom/bigsi.SRR1313092.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1313097.bloom/bigsi.SRR1313097.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1313105.bloom/bigsi.SRR1313105.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1313120.bloom/bigsi.SRR1313120.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1313154.bloom/bigsi.SRR1313154.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1313156.bloom/bigsi.SRR1313156.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1313198.bloom/bigsi.SRR1313198.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1313216.bloom/bigsi.SRR1313216.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1313228.bloom/bigsi.SRR1313228.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR1519066.bloom/bigsi.SRR1519066.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191403.bloom/bigsi.SRR191403.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191429.bloom/bigsi.SRR191429.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191455.bloom/bigsi.SRR191455.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191463.bloom/bigsi.SRR191463.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191480.bloom/bigsi.SRR191480.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191487.bloom/bigsi.SRR191487.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191494.bloom/bigsi.SRR191494.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191527.bloom/bigsi.SRR191527.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191555.bloom/bigsi.SRR191555.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191563.bloom/bigsi.SRR191563.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191621.bloom/bigsi.SRR191621.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191646.bloom/bigsi.SRR191646.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191675.bloom/bigsi.SRR191675.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191693.bloom/bigsi.SRR191693.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR191696.bloom/bigsi.SRR191696.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR299111.bloom/bigsi.SRR299111.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR306849.bloom/bigsi.SRR306849.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR353653.bloom/bigsi.SRR353653.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR387778.bloom/bigsi.SRR387778.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR393767.bloom/bigsi.SRR393767.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR403006.bloom/bigsi.SRR403006.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR496397.bloom/bigsi.SRR496397.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR518951.bloom/bigsi.SRR518951.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR518958.bloom/bigsi.SRR518958.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/human/bigsi/15/bigsi.SRR537114.bloom/bigsi.SRR537114.bloom 
+DEBUG:bigsi.graph.bigsi:Insert sample metadata
+DEBUG:bigsi.graph.bigsi:Create signature index
+DEBUG:bigsi.graph.index:Transpose bitarrays
+DEBUG:bigsi.graph.index:Insert rows
+DEBUG:bigsi.storage.base:set bitarrays
+	Command being timed: "bigsi build human/bigsi/15/bigsi.SRR038300.bloom human/bigsi/15/bigsi.SRR039632.bloom human/bigsi/15/bigsi.SRR1012332.bloom human/bigsi/15/bigsi.SRR1024141.bloom human/bigsi/15/bigsi.SRR1033463.bloom human/bigsi/15/bigsi.SRR1035695.bloom human/bigsi/15/bigsi.SRR1047817.bloom human/bigsi/15/bigsi.SRR1060774.bloom human/bigsi/15/bigsi.SRR1174334.bloom human/bigsi/15/bigsi.SRR1193574.bloom human/bigsi/15/bigsi.SRR1292581.bloom human/bigsi/15/bigsi.SRR1294106.bloom human/bigsi/15/bigsi.SRR1303626.bloom human/bigsi/15/bigsi.SRR1313077.bloom human/bigsi/15/bigsi.SRR1313078.bloom human/bigsi/15/bigsi.SRR1313092.bloom human/bigsi/15/bigsi.SRR1313097.bloom human/bigsi/15/bigsi.SRR1313105.bloom human/bigsi/15/bigsi.SRR1313120.bloom human/bigsi/15/bigsi.SRR1313154.bloom human/bigsi/15/bigsi.SRR1313156.bloom human/bigsi/15/bigsi.SRR1313198.bloom human/bigsi/15/bigsi.SRR1313216.bloom human/bigsi/15/bigsi.SRR1313228.bloom human/bigsi/15/bigsi.SRR1519066.bloom human/bigsi/15/bigsi.SRR191403.bloom human/bigsi/15/bigsi.SRR191429.bloom human/bigsi/15/bigsi.SRR191455.bloom human/bigsi/15/bigsi.SRR191463.bloom human/bigsi/15/bigsi.SRR191480.bloom human/bigsi/15/bigsi.SRR191487.bloom human/bigsi/15/bigsi.SRR191494.bloom human/bigsi/15/bigsi.SRR191527.bloom human/bigsi/15/bigsi.SRR191555.bloom human/bigsi/15/bigsi.SRR191563.bloom human/bigsi/15/bigsi.SRR191621.bloom human/bigsi/15/bigsi.SRR191646.bloom human/bigsi/15/bigsi.SRR191675.bloom human/bigsi/15/bigsi.SRR191693.bloom human/bigsi/15/bigsi.SRR191696.bloom human/bigsi/15/bigsi.SRR299111.bloom human/bigsi/15/bigsi.SRR306849.bloom human/bigsi/15/bigsi.SRR353653.bloom human/bigsi/15/bigsi.SRR387778.bloom human/bigsi/15/bigsi.SRR393767.bloom human/bigsi/15/bigsi.SRR403006.bloom human/bigsi/15/bigsi.SRR496397.bloom human/bigsi/15/bigsi.SRR518951.bloom human/bigsi/15/bigsi.SRR518958.bloom human/bigsi/15/bigsi.SRR537114.bloom -s SRR038300 -s SRR039632 -s SRR1012332 -s SRR1024141 -s SRR1033463 -s SRR1035695 -s SRR1047817 -s SRR1060774 -s SRR1174334 -s SRR1193574 -s SRR1292581 -s SRR1294106 -s SRR1303626 -s SRR1313077 -s SRR1313078 -s SRR1313092 -s SRR1313097 -s SRR1313105 -s SRR1313120 -s SRR1313154 -s SRR1313156 -s SRR1313198 -s SRR1313216 -s SRR1313228 -s SRR1519066 -s SRR191403 -s SRR191429 -s SRR191455 -s SRR191463 -s SRR191480 -s SRR191487 -s SRR191494 -s SRR191527 -s SRR191555 -s SRR191563 -s SRR191621 -s SRR191646 -s SRR191675 -s SRR191693 -s SRR191696 -s SRR299111 -s SRR306849 -s SRR353653 -s SRR387778 -s SRR393767 -s SRR403006 -s SRR496397 -s SRR518951 -s SRR518958 -s SRR537114"
+	User time (seconds): 648.32
+	System time (seconds): 299.78
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 15:54.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7541840
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2834899
+	Voluntary context switches: 3367
+	Involuntary context switches: 191558
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 269677592
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
