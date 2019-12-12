@@ -1,0 +1,58 @@
+[12 Dec 2019 00:19:33-mUr][cmd] /home/CSCScience.ca/apetkau/miniconda3/envs/bigsi_mccortex/bin/mccortex31 build --nkmers 74000000 --threads 1 --kmer 17 --mem 3G --sample SRR10298906 --seq microbial/kmer-counts-jellyfish/17/SRR10298906.kmer.gz microbial/bigsi/17/mccortex.SRR10298906.ctx
+[12 Dec 2019 00:19:33-mUr][cwd] /home/CSCScience.ca/apetkau/workspace/comp7934-project
+[12 Dec 2019 00:19:33-mUr][version] mccortex=v0.0.3-610-g400c0e3 zlib=1.2.11 htslib=1.8-17-g699ed53 ASSERTS=ON hash=Lookup3 CHECKS=ON k=3..31
+[12 Dec 2019 00:19:33-mUr] Saving graph to: microbial/bigsi/17/mccortex.SRR10298906.ctx
+[12 Dec 2019 00:19:33-mUr][sample] 0: SRR10298906
+[12 Dec 2019 00:19:33-mUr][task] microbial/kmer-counts-jellyfish/17/SRR10298906.kmer.gz; FASTQ offset: auto-detect, threshold: off; cut homopolymers: off; remove PCR duplicates: no; colour: 0
+[12 Dec 2019 00:19:33-mUr][memory] 104 bits per kmer
+[12 Dec 2019 00:19:33-mUr] Note: Using less memory than requested (940MB < 3GB); allows for 75,497,472 kmers
+[12 Dec 2019 00:19:33-mUr][memory] graph: 940MB
+[12 Dec 2019 00:19:33-mUr][memory] total: 940MB of 62.6GB RAM
+[12 Dec 2019 00:19:33-mUr] Writing 1 colour graph to microbial/bigsi/17/mccortex.SRR10298906.ctx
+[12 Dec 2019 00:19:33-mUr][hasht] Allocating table with 75,497,472 entries, using 580MB
+[12 Dec 2019 00:19:33-mUr][hasht]  number of buckets: 2,097,152, bucket size: 36
+[12 Dec 2019 00:19:33-mUr][graph] kmer-size: 17; colours: 1; capacity: 75,497,472
+[12 Dec 2019 00:19:33-mUr][hasht] buckets: 2,097,152 [2^21]; bucket size: 36; 
+[12 Dec 2019 00:19:33-mUr][hasht] memory: 580MB; filled: 0 / 75,497,472 (0.00%)
+[12 Dec 2019 00:19:33-mUr][asyncio] Inputs: 1; Threads: 1
+[12 Dec 2019 00:19:33-mUr][seq] Parsing sequence file microbial/kmer-counts-jellyfish/17/SRR10298906.kmer.gz
+[12 Dec 2019 00:19:41-mUr][seq] Loaded 3,438,451 reads and 0 reads pairs (file: microbial/kmer-counts-jellyfish/17/SRR10298906.kmer.gz)
+[12 Dec 2019 00:19:41-mUr][hasht] buckets: 2,097,152 [2^21]; bucket size: 36; 
+[12 Dec 2019 00:19:41-mUr][hasht] memory: 580MB; filled: 3,438,451 / 75,497,472 (4.55%)
+[12 Dec 2019 00:19:41-mUr][hasht]  collisions  0: 3438451
+[12 Dec 2019 00:19:41-mUr][task] input: microbial/kmer-counts-jellyfish/17/SRR10298906.kmer.gz colour: 0
+[12 Dec 2019 00:19:41-mUr]  SE reads: 3,438,451  PE reads: 0
+[12 Dec 2019 00:19:41-mUr]  good reads: 3,438,451  bad reads: 0
+[12 Dec 2019 00:19:41-mUr]  dup SE reads: 0  dup PE pairs: 0
+[12 Dec 2019 00:19:41-mUr]  bases read: 58,453,667  bases loaded: 58,453,667
+[12 Dec 2019 00:19:41-mUr]  num contigs: 3,438,451  num kmers: 3,438,451 novel kmers: 3,438,451
+[12 Dec 2019 00:19:41-mUr] Dumping graph...
+[12 Dec 2019 00:19:41-mUr][graphwriter] Saving file to: microbial/bigsi/17/mccortex.SRR10298906.ctx
+[12 Dec 2019 00:19:41-mUr][FileFilter] Writing graph  [1 src colour]
+[12 Dec 2019 00:19:42-mUr][graphwriter] Dumped 3,438,451 kmers in 1 colour into: microbial/bigsi/17/mccortex.SRR10298906.ctx (ver: 6)
+[12 Dec 2019 00:19:42-mUr][memory] We made 19 allocs
+[12 Dec 2019 00:19:42-mUr] Done.
+[12 Dec 2019 00:19:42-mUr][time] 9.00 seconds
+	Command being timed: "mccortex 17 build --nkmers 74000000 --threads 1 --kmer 17 --mem 3G --sample SRR10298906 --seq microbial/kmer-counts-jellyfish/17/SRR10298906.kmer.gz microbial/bigsi/17/mccortex.SRR10298906.ctx"
+	User time (seconds): 9.28
+	System time (seconds): 5.24
+	Percent of CPU this job got: 165%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 898268
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 712968
+	Voluntary context switches: 387542
+	Involuntary context switches: 151
+	Swaps: 0
+	File system inputs: 38216
+	File system outputs: 87320
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,81 @@
+/home/CSCScience.ca/apetkau/miniconda3/envs/bigsi_mccortex/lib/python3.7/site-packages/bigsi/__main__.py:45: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  config = yaml.load(infile)
+INFO:bigsi.cmds.build:Building index: 0/1
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713331.bloom/bigsi.ERR1713331.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713332.bloom/bigsi.ERR1713332.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713333.bloom/bigsi.ERR1713333.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713334.bloom/bigsi.ERR1713334.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713335.bloom/bigsi.ERR1713335.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713336.bloom/bigsi.ERR1713336.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713337.bloom/bigsi.ERR1713337.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713339.bloom/bigsi.ERR1713339.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713340.bloom/bigsi.ERR1713340.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713341.bloom/bigsi.ERR1713341.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713342.bloom/bigsi.ERR1713342.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713343.bloom/bigsi.ERR1713343.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713344.bloom/bigsi.ERR1713344.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713345.bloom/bigsi.ERR1713345.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713351.bloom/bigsi.ERR1713351.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713352.bloom/bigsi.ERR1713352.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713353.bloom/bigsi.ERR1713353.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713355.bloom/bigsi.ERR1713355.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713356.bloom/bigsi.ERR1713356.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713358.bloom/bigsi.ERR1713358.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713359.bloom/bigsi.ERR1713359.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713361.bloom/bigsi.ERR1713361.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713362.bloom/bigsi.ERR1713362.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713363.bloom/bigsi.ERR1713363.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713366.bloom/bigsi.ERR1713366.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713371.bloom/bigsi.ERR1713371.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713372.bloom/bigsi.ERR1713372.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713373.bloom/bigsi.ERR1713373.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713374.bloom/bigsi.ERR1713374.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713375.bloom/bigsi.ERR1713375.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713376.bloom/bigsi.ERR1713376.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713378.bloom/bigsi.ERR1713378.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713379.bloom/bigsi.ERR1713379.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713381.bloom/bigsi.ERR1713381.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713382.bloom/bigsi.ERR1713382.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713388.bloom/bigsi.ERR1713388.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713389.bloom/bigsi.ERR1713389.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713391.bloom/bigsi.ERR1713391.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713393.bloom/bigsi.ERR1713393.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713395.bloom/bigsi.ERR1713395.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713396.bloom/bigsi.ERR1713396.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713397.bloom/bigsi.ERR1713397.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713399.bloom/bigsi.ERR1713399.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713400.bloom/bigsi.ERR1713400.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713401.bloom/bigsi.ERR1713401.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713402.bloom/bigsi.ERR1713402.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713403.bloom/bigsi.ERR1713403.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713405.bloom/bigsi.ERR1713405.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713406.bloom/bigsi.ERR1713406.bloom 
+DEBUG:bigsi.cmds.build:Loading /home/CSCScience.ca/apetkau/workspace/comp7934-project/metagenomics/bigsi/17/bigsi.ERR1713409.bloom/bigsi.ERR1713409.bloom 
+DEBUG:bigsi.graph.bigsi:Insert sample metadata
+DEBUG:bigsi.graph.bigsi:Create signature index
+DEBUG:bigsi.graph.index:Transpose bitarrays
+DEBUG:bigsi.graph.index:Insert rows
+DEBUG:bigsi.storage.base:set bitarrays
+	Command being timed: "bigsi build metagenomics/bigsi/17/bigsi.ERR1713331.bloom metagenomics/bigsi/17/bigsi.ERR1713332.bloom metagenomics/bigsi/17/bigsi.ERR1713333.bloom metagenomics/bigsi/17/bigsi.ERR1713334.bloom metagenomics/bigsi/17/bigsi.ERR1713335.bloom metagenomics/bigsi/17/bigsi.ERR1713336.bloom metagenomics/bigsi/17/bigsi.ERR1713337.bloom metagenomics/bigsi/17/bigsi.ERR1713339.bloom metagenomics/bigsi/17/bigsi.ERR1713340.bloom metagenomics/bigsi/17/bigsi.ERR1713341.bloom metagenomics/bigsi/17/bigsi.ERR1713342.bloom metagenomics/bigsi/17/bigsi.ERR1713343.bloom metagenomics/bigsi/17/bigsi.ERR1713344.bloom metagenomics/bigsi/17/bigsi.ERR1713345.bloom metagenomics/bigsi/17/bigsi.ERR1713351.bloom metagenomics/bigsi/17/bigsi.ERR1713352.bloom metagenomics/bigsi/17/bigsi.ERR1713353.bloom metagenomics/bigsi/17/bigsi.ERR1713355.bloom metagenomics/bigsi/17/bigsi.ERR1713356.bloom metagenomics/bigsi/17/bigsi.ERR1713358.bloom metagenomics/bigsi/17/bigsi.ERR1713359.bloom metagenomics/bigsi/17/bigsi.ERR1713361.bloom metagenomics/bigsi/17/bigsi.ERR1713362.bloom metagenomics/bigsi/17/bigsi.ERR1713363.bloom metagenomics/bigsi/17/bigsi.ERR1713366.bloom metagenomics/bigsi/17/bigsi.ERR1713371.bloom metagenomics/bigsi/17/bigsi.ERR1713372.bloom metagenomics/bigsi/17/bigsi.ERR1713373.bloom metagenomics/bigsi/17/bigsi.ERR1713374.bloom metagenomics/bigsi/17/bigsi.ERR1713375.bloom metagenomics/bigsi/17/bigsi.ERR1713376.bloom metagenomics/bigsi/17/bigsi.ERR1713378.bloom metagenomics/bigsi/17/bigsi.ERR1713379.bloom metagenomics/bigsi/17/bigsi.ERR1713381.bloom metagenomics/bigsi/17/bigsi.ERR1713382.bloom metagenomics/bigsi/17/bigsi.ERR1713388.bloom metagenomics/bigsi/17/bigsi.ERR1713389.bloom metagenomics/bigsi/17/bigsi.ERR1713391.bloom metagenomics/bigsi/17/bigsi.ERR1713393.bloom metagenomics/bigsi/17/bigsi.ERR1713395.bloom metagenomics/bigsi/17/bigsi.ERR1713396.bloom metagenomics/bigsi/17/bigsi.ERR1713397.bloom metagenomics/bigsi/17/bigsi.ERR1713399.bloom metagenomics/bigsi/17/bigsi.ERR1713400.bloom metagenomics/bigsi/17/bigsi.ERR1713401.bloom metagenomics/bigsi/17/bigsi.ERR1713402.bloom metagenomics/bigsi/17/bigsi.ERR1713403.bloom metagenomics/bigsi/17/bigsi.ERR1713405.bloom metagenomics/bigsi/17/bigsi.ERR1713406.bloom metagenomics/bigsi/17/bigsi.ERR1713409.bloom -s ERR1713331 -s ERR1713332 -s ERR1713333 -s ERR1713334 -s ERR1713335 -s ERR1713336 -s ERR1713337 -s ERR1713339 -s ERR1713340 -s ERR1713341 -s ERR1713342 -s ERR1713343 -s ERR1713344 -s ERR1713345 -s ERR1713351 -s ERR1713352 -s ERR1713353 -s ERR1713355 -s ERR1713356 -s ERR1713358 -s ERR1713359 -s ERR1713361 -s ERR1713362 -s ERR1713363 -s ERR1713366 -s ERR1713371 -s ERR1713372 -s ERR1713373 -s ERR1713374 -s ERR1713375 -s ERR1713376 -s ERR1713378 -s ERR1713379 -s ERR1713381 -s ERR1713382 -s ERR1713388 -s ERR1713389 -s ERR1713391 -s ERR1713393 -s ERR1713395 -s ERR1713396 -s ERR1713397 -s ERR1713399 -s ERR1713400 -s ERR1713401 -s ERR1713402 -s ERR1713403 -s ERR1713405 -s ERR1713406 -s ERR1713409"
+	User time (seconds): 3319.73
+	System time (seconds): 1769.59
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:25:35
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 35341536
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 16029121
+	Voluntary context switches: 9772
+	Involuntary context switches: 295066
+	Swaps: 0
+	File system inputs: 16
+	File system outputs: 1947612400
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
