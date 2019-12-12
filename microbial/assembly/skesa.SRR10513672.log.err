@@ -1,0 +1,71 @@
+skesa --cores 4 --fastq microbial/data-downsampled/SRR10513672.fastq.gz --contigs_out microbial/assembly/SRR10513672.fasta 
+
+Total reads: 49583
+Reads acquired in  0.498629s wall, 0.490000s user + 0.000000s system = 0.490000s CPU (98.3%)
+
+Kmer len: 19
+Raw kmers: 9154007 Memory needed (GB): 0.175757 Memory available (GB): 30 1 cycle(s) will be performed
+Distinct kmers: 1
+Kmer count in  0.702506s wall, 2.340000s user + 0.150000s system = 2.490000s CPU (354.4%)
+Uniq kmers merging in  0.000574s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+Adapters: 0 Reads before: 49583 Sequence before: 10046501 Reads after: 49583 Sequence after: 10046501
+Adapters clipped in  0.703185s wall, 2.340000s user + 0.150000s system = 2.490000s CPU (354.1%)
+
+Kmer len: 21
+Raw kmers: 9054841 Memory needed (GB): 0.173853 Memory available (GB): 29.9973 1 cycle(s) will be performed
+Distinct kmers: 2205738
+Kmer count in  0.820750s wall, 2.780000s user + 0.080000s system = 2.860000s CPU (348.5%)
+Uniq kmers merging in  0.118635s wall, 0.130000s user + 0.090000s system = 0.220000s CPU (185.4%)
+Kmers branching in  1.745112s wall, 6.390000s user + 0.010000s system = 6.400000s CPU (366.7%)
+
+Average read length: 203
+Genome size estimate: 2132455
+
+Kmer: 21 Graph size: 2205738 Contigs in: 0
+Valley: 0
+
+Mark used kmers in  0.000008s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+Kmers in multiple/single contigs: 0 0
+Fragments before: 6618 2157632
+Fragments after: 6598 2157632
+New seeds: 5505
+New seeds in  1.570203s wall, 5.210000s user + 0.040000s system = 5.250000s CPU (334.4%)
+Fragments before: 11010 231210
+Fragments after: 11010 231210
+Connectors: 0 Extenders: 11010
+Connections and extensions in  0.431044s wall, 1.340000s user + 0.010000s system = 1.350000s CPU (313.2%)
+Contigs out: 5505 Genome: 1859444 N50: 502 L50: 1177
+Assembled in  2.021614s wall, 6.570000s user + 0.050000s system = 6.620000s CPU (327.5%)
+
+
+Average count: 3.5348 Max kmer: 21
+Seed kmers: 0
+Cleaned reads: 36520
+Reads for connection: 0
+Internal reads: 0
+Reads cleaned in  0.697678s wall, 2.590000s user + 0.030000s system = 2.620000s CPU (375.5%)
+WARNING: iterations are disabled
+DONE
+	Command being timed: "skesa --cores 4 --fastq microbial/data-downsampled/SRR10513672.fastq.gz --contigs_out microbial/assembly/SRR10513672.fasta"
+	User time (seconds): 22.74
+	System time (seconds): 0.44
+	Percent of CPU this job got: 286%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 175532
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 158987
+	Voluntary context switches: 5755
+	Involuntary context switches: 178
+	Swaps: 0
+	File system inputs: 14360
+	File system outputs: 3248
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
