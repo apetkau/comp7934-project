@@ -1,22 +1,22 @@
 skesa --cores 4 --fastq microbial/data-downsampled/SRR10298906.fastq.gz --contigs_out microbial/assembly/SRR10298906.fasta 
 
 Total reads: 41779
-Reads acquired in  0.505475s wall, 0.490000s user + 0.010000s system = 0.500000s CPU (98.9%)
+Reads acquired in  0.502263s wall, 0.490000s user + 0.010000s system = 0.500000s CPU (99.5%)
 
 Kmer len: 19
 Raw kmers: 9237143 Memory needed (GB): 0.177353 Memory available (GB): 30 1 cycle(s) will be performed
 Distinct kmers: 50
-Kmer count in  0.854770s wall, 2.980000s user + 0.170000s system = 3.150000s CPU (368.5%)
-Uniq kmers merging in  0.001155s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+Kmer count in  0.857257s wall, 2.790000s user + 0.130000s system = 2.920000s CPU (340.6%)
+Uniq kmers merging in  0.002092s wall, 0.010000s user + 0.000000s system = 0.010000s CPU (477.9%)
 Adapters: 0 Reads before: 41779 Sequence before: 9989165 Reads after: 41779 Sequence after: 9989165
-Adapters clipped in  0.856023s wall, 2.980000s user + 0.170000s system = 3.150000s CPU (368.0%)
+Adapters clipped in  0.859493s wall, 2.800000s user + 0.130000s system = 2.930000s CPU (340.9%)
 
 Kmer len: 21
 Raw kmers: 9153585 Memory needed (GB): 0.175749 Memory available (GB): 29.9973 1 cycle(s) will be performed
 Distinct kmers: 2319794
-Kmer count in  0.871011s wall, 3.140000s user + 0.090000s system = 3.230000s CPU (370.8%)
-Uniq kmers merging in  0.122849s wall, 0.170000s user + 0.090000s system = 0.260000s CPU (211.6%)
-Kmers branching in  1.878913s wall, 6.420000s user + 0.010000s system = 6.430000s CPU (342.2%)
+Kmer count in  0.842551s wall, 3.120000s user + 0.070000s system = 3.190000s CPU (378.6%)
+Uniq kmers merging in  0.126549s wall, 0.140000s user + 0.100000s system = 0.240000s CPU (189.6%)
+Kmers branching in  2.190292s wall, 6.560000s user + 0.030000s system = 6.590000s CPU (300.9%)
 
 Average read length: 239
 Genome size estimate: 2222129
@@ -26,16 +26,16 @@ Valley: 0
 
 Mark used kmers in  0.000008s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
 Kmers in multiple/single contigs: 0 0
-Fragments before: 7142 2268898
-Fragments after: 7124 2268898
+Fragments before: 7143 2268922
+Fragments after: 7125 2268922
 New seeds: 5936
-New seeds in  1.566732s wall, 5.270000s user + 0.040000s system = 5.310000s CPU (338.9%)
+New seeds in  1.696935s wall, 5.540000s user + 0.020000s system = 5.560000s CPU (327.6%)
 Fragments before: 11872 249312
 Fragments after: 11872 249312
 Connectors: 0 Extenders: 11872
-Connections and extensions in  0.527233s wall, 1.660000s user + 0.020000s system = 1.680000s CPU (318.6%)
+Connections and extensions in  0.592346s wall, 1.800000s user + 0.030000s system = 1.830000s CPU (308.9%)
 Contigs out: 5936 Genome: 1947937 N50: 463 L50: 1300
-Assembled in  2.114638s wall, 6.950000s user + 0.060000s system = 7.010000s CPU (331.5%)
+Assembled in  2.309804s wall, 7.360000s user + 0.050000s system = 7.410000s CPU (320.8%)
 
 
 Average count: 3.2332 Max kmer: 21
@@ -43,27 +43,27 @@ Seed kmers: 0
 Cleaned reads: 33055
 Reads for connection: 0
 Internal reads: 0
-Reads cleaned in  0.907674s wall, 3.420000s user + 0.040000s system = 3.460000s CPU (381.2%)
+Reads cleaned in  0.882149s wall, 3.300000s user + 0.050000s system = 3.350000s CPU (379.8%)
 WARNING: iterations are disabled
 DONE
 	Command being timed: "skesa --cores 4 --fastq microbial/data-downsampled/SRR10298906.fastq.gz --contigs_out microbial/assembly/SRR10298906.fasta"
-	User time (seconds): 25.12
-	System time (seconds): 0.49
-	Percent of CPU this job got: 289%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.84
+	User time (seconds): 25.35
+	System time (seconds): 0.48
+	Percent of CPU this job got: 276%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.33
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 178636
+	Maximum resident set size (kbytes): 178480
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 166950
-	Voluntary context switches: 6361
-	Involuntary context switches: 65
+	Minor (reclaiming a frame) page faults: 164018
+	Voluntary context switches: 6638
+	Involuntary context switches: 72
 	Swaps: 0
-	File system inputs: 13864
-	File system outputs: 3352
+	File system inputs: 0
+	File system outputs: 3368
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0

@@ -1,22 +1,22 @@
 skesa --cores 4 --fastq microbial/data-downsampled/SRR10527349.fastq.gz --contigs_out microbial/assembly/SRR10527349.fasta 
 
 Total reads: 100079
-Reads acquired in  0.526291s wall, 0.520000s user + 0.000000s system = 0.520000s CPU (98.8%)
+Reads acquired in  0.519813s wall, 0.520000s user + 0.000000s system = 0.520000s CPU (100.0%)
 
 Kmer len: 19
 Raw kmers: 8227933 Memory needed (GB): 0.157976 Memory available (GB): 30 1 cycle(s) will be performed
 Distinct kmers: 528
-Kmer count in  0.677740s wall, 2.230000s user + 0.130000s system = 2.360000s CPU (348.2%)
-Uniq kmers merging in  0.001265s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+Kmer count in  0.755060s wall, 2.370000s user + 0.130000s system = 2.500000s CPU (331.1%)
+Uniq kmers merging in  0.001281s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
 Adapters: 0 Reads before: 100079 Sequence before: 10029355 Reads after: 100079 Sequence after: 10029355
-Adapters clipped in  0.679118s wall, 2.230000s user + 0.130000s system = 2.360000s CPU (347.5%)
+Adapters clipped in  0.756468s wall, 2.370000s user + 0.130000s system = 2.500000s CPU (330.5%)
 
 Kmer len: 21
 Raw kmers: 8027775 Memory needed (GB): 0.154133 Memory available (GB): 29.9971 1 cycle(s) will be performed
 Distinct kmers: 2151751
-Kmer count in  0.720551s wall, 2.420000s user + 0.070000s system = 2.490000s CPU (345.6%)
-Uniq kmers merging in  0.132297s wall, 0.140000s user + 0.100000s system = 0.240000s CPU (181.4%)
-Kmers branching in  1.657119s wall, 5.240000s user + 0.020000s system = 5.260000s CPU (317.4%)
+Kmer count in  0.709627s wall, 2.310000s user + 0.100000s system = 2.410000s CPU (339.6%)
+Uniq kmers merging in  0.114178s wall, 0.120000s user + 0.090000s system = 0.210000s CPU (183.9%)
+Kmers branching in  1.789656s wall, 5.970000s user + 0.030000s system = 6.000000s CPU (335.3%)
 
 Average read length: 100
 Genome size estimate: 2101471
@@ -24,18 +24,18 @@ Genome size estimate: 2101471
 Kmer: 21 Graph size: 2151751 Contigs in: 0
 Valley: 0
 
-Mark used kmers in  0.000007s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
+Mark used kmers in  0.000005s wall, 0.000000s user + 0.000000s system = 0.000000s CPU (n/a%)
 Kmers in multiple/single contigs: 0 0
-Fragments before: 17324 1950602
-Fragments after: 17293 1950602
+Fragments before: 17320 1950575
+Fragments after: 17293 1950575
 New seeds: 8738
-New seeds in  2.046332s wall, 5.960000s user + 0.030000s system = 5.990000s CPU (292.7%)
+New seeds in  2.142803s wall, 5.930000s user + 0.060000s system = 5.990000s CPU (279.5%)
 Fragments before: 17476 366996
 Fragments after: 17476 366996
 Connectors: 0 Extenders: 17476
-Connections and extensions in  0.529707s wall, 1.460000s user + 0.000000s system = 1.460000s CPU (275.6%)
+Connections and extensions in  0.570621s wall, 1.610000s user + 0.020000s system = 1.630000s CPU (285.7%)
 Contigs out: 8738 Genome: 984431 N50: 131 L50: 2329
-Assembled in  2.595244s wall, 7.440000s user + 0.030000s system = 7.470000s CPU (287.8%)
+Assembled in  2.734683s wall, 7.560000s user + 0.080000s system = 7.640000s CPU (279.4%)
 
 
 Average count: 2.827 Max kmer: 21
@@ -43,26 +43,26 @@ Seed kmers: 0
 Cleaned reads: 97136
 Reads for connection: 0
 Internal reads: 0
-Reads cleaned in  0.697988s wall, 2.550000s user + 0.030000s system = 2.580000s CPU (369.6%)
+Reads cleaned in  0.684666s wall, 2.580000s user + 0.020000s system = 2.600000s CPU (379.7%)
 WARNING: iterations are disabled
 DONE
 	Command being timed: "skesa --cores 4 --fastq microbial/data-downsampled/SRR10527349.fastq.gz --contigs_out microbial/assembly/SRR10527349.fasta"
-	User time (seconds): 20.99
-	System time (seconds): 0.39
+	User time (seconds): 21.89
+	System time (seconds): 0.47
 	Percent of CPU this job got: 286%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.47
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.79
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 157272
+	Maximum resident set size (kbytes): 157216
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 141895
-	Voluntary context switches: 5702
-	Involuntary context switches: 154
+	Minor (reclaiming a frame) page faults: 157556
+	Voluntary context switches: 5849
+	Involuntary context switches: 40
 	Swaps: 0
-	File system inputs: 12400
+	File system inputs: 0
 	File system outputs: 576
 	Socket messages sent: 0
 	Socket messages received: 0
