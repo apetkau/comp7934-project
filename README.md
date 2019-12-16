@@ -1,8 +1,8 @@
 # Methods for: A comparison of BIGSI and HowDe-SBT for large-scale indexing and searching of sequence reads
 
-Aaron Petkau and Meghan Chua
-COMP 7934 Final Project | University of Manitoba
-December 16, 2019
+* Aaron Petkau and Meghan Chua
+* COMP 7934 Final Project | University of Manitoba
+* December 16, 2019
 
 This repository contains [Jupyter](https://jupyter.org/) notebooks which were used to run all the commands for performance comparisons between [HowDe-SBT](https://github.com/medvedevgroup/HowDeSBT) and [BIGSI](https://github.com/Phelimb/BIGSI) for our COMP 7934 final project.
 
